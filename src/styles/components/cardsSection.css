@@ -1,0 +1,22 @@
+.container {
+  background-color: var(--white-color);
+  padding: 10px;
+}
+
+.cards__container {
+  display: grid;
+  gap: 1rem;
+  grid-auto-rows: max-content;
+  grid-template-columns: repeat(auto-fill, minmax(13rem, 1fr));
+  margin-bottom: 10px;
+}
+
+@media all and (min-width: 768px) {
+  .container {
+    height: 746px;
+  }
+
+  .cards__container {
+    margin: 0 10px 0 0;
+  }
+}

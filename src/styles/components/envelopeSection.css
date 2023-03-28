@@ -1,0 +1,14 @@
+.section__envelope {
+  width: 100%;
+}
+.container__envelope {
+  display: flex;
+  border-bottom: 1px solid var(--border-color);
+  justify-content: center;
+  padding-top: 12px;
+}
+
+.envelope {
+  width: 25px;
+  padding-bottom: 12px;
+}

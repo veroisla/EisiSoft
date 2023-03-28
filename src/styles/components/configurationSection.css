@@ -1,0 +1,38 @@
+.config {
+  height: 50px;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--primary-color);
+  background-color: var(--white-color);
+  font-weight: 600;
+}
+
+.config__iconText {
+  display: flex;
+  align-items: center;
+}
+
+.config__icon {
+  width: 30px;
+  padding: 5px;
+  background-color: var(--primary-color);
+  border-radius: 4px;
+  margin: 0 10px 0 15px;
+}
+
+.config__envelope {
+  width: 20px;
+  margin-right: 15px;
+}
+
+@media all and (min-width: 768px) {
+  .config {
+    width: auto;
+  }
+
+  .config__envelope {
+    display: none;
+  }
+}

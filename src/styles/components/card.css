@@ -1,0 +1,17 @@
+.article {
+  overflow: hidden;
+}
+
+.article__title {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  text-align: center;
+  padding: 20px;
+  font-size: 15px;
+}
+
+.article__info {
+  background-color: var(--secondary-color);
+  padding: 20px;
+  font-size: 14px;
+}
